@@ -1,0 +1,33 @@
+.container {
+    text-align: center;
+    width: 500px;
+}
+
+body {
+    background-image: url(myImg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.container {
+    margin-top: 100px;
+}
+
+#logInForm {
+    display: none;
+}
+
+.showLogInForm {
+    color: blue !important;
+    ;
+}
+
+.showLogInForm:hover {
+    text-decoration: underline !important;
+    font-weight: bold;
+}
+
+#myDiary {
+    height: 500px;
+}
